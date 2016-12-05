@@ -133,7 +133,7 @@ Implementieren Sie zunächst den Service so, dass dieser die benötigten Daten d
 ## Enterprise Service Bus
 Implementieren Sie nun alle Services gegen einen *Enterprise Service Bus*. Schauen Sie sich beispielsweise den [WSO2](https://docs.wso2.com/display/ESB500/About+WSO2+ESB) ESB an, welcher kostenlos und Open Source ist.
 
-Machen Sie sich mit diesem vertraut und verstehen die die Funktionsweise und den Nutzen eines ESB. Das [Einführungskapitel](https://docs.wso2.com/display/ESB500/About+WSO2+ESB) ermöglicht einen guten Einstieg.
+Machen Sie sich mit diesem vertraut und verstehen dessen Funktionsweise und den Nutzen eines ESB. Das [Einführungskapitel](https://docs.wso2.com/display/ESB500/About+WSO2+ESB) ermöglicht einen guten Einstieg.
 Diskutieren Sie Vor- und Nachteile, Ihre Services direkt miteinander, oder über den ESB kommunizieren zu lassen.
 
 ## Hilfe
