@@ -136,4 +136,4 @@ Machen Sie sich mit diesem vertraut und verstehen die die Funktionsweise und den
 Diskutieren Sie Vor- und Nachteile ihre Services direkt miteinander oder über den ESB kommunizieren zu lassen.
 
 ## Hilfe
-- [Patrick Petrovic: Web APIs](https://media.ccc.de/v/gpn16-7605-web_api_hacks_mit_der_jodel-app) - Eine kurze Wiederholung von HTTP, APIs und JSON. ~20 Minuten.
+- [Patrick Petrovic: Web APIs](https://media.ccc.de/v/gpn16-7605-web_api_hacks_mit_der_jodel-app) - Eine kurze Wiederholung (Video) von HTTP, APIs und JSON. ~20 Minuten.
