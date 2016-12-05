@@ -13,7 +13,7 @@ Diesen Service haben Sie bereits in Übungsblatt 2 umgesetzt. Eine mögliche Arc
 
 `PATCH` `/unterlagen/:id` Aktualisiert die `Unterlage` mit entsprechender `id`.
 
-`DELETE` `/unterlagen/:id` Löescht `Unterlage` mit `id`.
+`DELETE` `/unterlagen/:id` Löscht `Unterlage` mit `id`.
 
 Eine `Unterlage` könnte wie folgt definiert sein:
 
