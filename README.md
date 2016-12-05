@@ -71,13 +71,13 @@ Entwerfen Sie die Endpoints. Eine mögliche Lösung wird in Übungsblatt 4 verö
 3. Gilt gleiches für die Adresse?
 4. Recherchieren Sie, ob zu dieser Problematik best practices existieren.
 
-Zur Implementierung genügt obiges Modell völlig. Nutzen Sie Ihr Schulungsunterlagen Service als Gerüst um den Kundendatenbank Service möglichst schnell und einfach zu implementieren. Die Fragen dienen nur als Anregung.
+Zur Implementierung genügt obiges Modell völlig. Nutzen Sie Ihr Schulungsunterlagen-Service als Gerüst um den Kundendatenbank-Service möglichst schnell und einfach zu implementieren. Die Fragen dienen nur als Anregung.
 
 ### Datenbank
 Machen Sie sich auch hier Gedanken über das Datenmodell und die verwendete Datenbank.
 
 ## Bestellungs-Service
-Der Bestellungs-Service bedient Sich aus den beiden anderen Services und verwaltet Bestellungen. Entwerfen und implementieren Sie einen Bestellungs-Service analog zu den beiden Anderen:
+Der Bestellungs-Service bedient Sich aus den beiden anderen Services und verwaltet Bestellungen. Entwerfen und implementieren Sie einen Bestellungs-Service analog zu den beiden anderen:
 ### Datenmodell
 Ein Bestellungsmodell könnte wie folgt aussehen:
 ```
