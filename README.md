@@ -122,7 +122,7 @@ Eine konkrete Bestellung:
 }
 ```
 ### Architektur
-Implementieren Sie zunächst den Service so, dass dieser die benötigen Daten direkt vom Unterlagen- sowie Kunden-Service bezieht.
+Implementieren Sie zunächst den Service so, dass dieser die benötigten Daten direkt vom Unterlagen- sowie Kunden-Service bezieht.
 
 ### Fragen
 1. Ihre Kommilitonen haben die Services vielleicht anders implementiert und die Datenmodelle weichen von Ihren ab. Ihre Services sollen nun miteinander sprechen. Wie könnten Sie dies erreichen und welche Lösungen existieren dafür am Markt?
