@@ -1,7 +1,7 @@
 # Übungsblatt 3
 In diesem Übungsblatt verwenden Sie den Schulungsunterlagen-Service aus Übungsblatt 2, erstellen zudem einen Kundendatenbank-Service sowie einen Bestellungs-Service. Der Bestellungs-Service verwaltet Kundenbestellungen und nutzt als Datengrundlage den Schulungs- sowie den Kundendatenbank-Service. Sie integrieren die drei Services mit einem ESB (Enterprise-Service-Bus) und entwickeln eine sinnvolle Service-Architektur. Die folgenden Aufgaben helfen Ihnen bei der Umsetzung und Entscheidungsfindung:
 
-## Schulungsunterlagen-Service
+## Mögliche Lösung: Schulungsunterlagen-Service
 Diesen Service haben Sie bereits in Übungsblatt 2 umgesetzt. Eine mögliche Architektur des Service:
 
 ### Endpoints
