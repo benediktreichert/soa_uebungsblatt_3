@@ -7,13 +7,13 @@ Diesen Service haben Sie bereits in Übungsblatt 2 umgesetzt. Eine mögliche Arc
 ### Endpoints
 `GET` `/unterlagen` Listet alle `Unterlage`n auf.
 
-`GET` `/unterlagen/:id` Gibt die Unterlage `id` zurück.
+`GET` `/unterlagen/:id` Gibt die `Unterlage` `id` zurück.
 
-`POST` `/unterlagen` Erstellt eine `Unterlage`. Die ID wird bei erfolgreicher Erstellung im HTTP Body zurückgegeben.
+`POST` `/unterlagen` Erstellt eine `Unterlage`. Die `id` wird bei erfolgreicher Erstellung im HTTP Body zurückgegeben.
 
 `PATCH` `/unterlagen/:id` Aktualisiert die `Unterlage` mit entsprechender `id`.
 
-`DELETE` `/unterlagen/:id` Löescht Unterlage mit `id`.
+`DELETE` `/unterlagen/:id` Löescht `Unterlage` mit `id`.
 
 Eine `Unterlage` könnte wie folgt definiert sein:
 
