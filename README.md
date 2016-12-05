@@ -125,14 +125,15 @@ Eine konkrete Bestellung:
 Implementieren Sie zunächst den Service so, dass dieser die benötigten Daten direkt vom Unterlagen- sowie Kunden-Service bezieht.
 
 ### Fragen
-1. Ihre Kommilitonen haben die Services vielleicht anders implementiert und die Datenmodelle weichen von Ihren ab. Ihre Services sollen nun miteinander sprechen. Wie könnten Sie dies erreichen und welche Lösungen existieren dafür am Markt?
-2. 
+1. Ihre Kommilitonen haben die Services vielleicht anders implementiert und die Datenmodelle weichen von Ihren ab. Sie möchten nun die Services Ihrer Kommilitonen verwenden und diese kommunizieren lassen. Wie könnten Sie dies erreichen und welche Lösungen existieren dafür am Markt (beispielsweise Enterprise Service Bus)?
+2. Wie hätte vermieden werden können, dass unterschiedliche Lösungen für die einzelnen Services existieren?
+3. Sie haben sich vielleicht Gedanken gemacht, ob die Services nicht einfach eine Datenbank teilen sollten. Welche Vor- und Nachteile hätte dies? Welche Vor- und Nachteile hätte dies insbesondere bei steigender Last?
+4. Aus der Vorlesung `Distributed Systems` sind Ihnen Vor- und besonders auch Nachteile verteilter Systeme bekannt. Sie entscheiden Sich für eine Architektur, in welcher jeder Service seine eigene Datenbank erhält. Auf welches Problem stoßen Sie insbesondere in Bezug auf Integrität Ihrer Daten und welche Trade-Offs würden Sie verantworten.
 
 ## Enterprise Service Bus
 Implementieren Sie nun alle Services gegen einen *Enterprise Service Bus*. Schauen Sie sich beispielsweise den [WSO2](https://docs.wso2.com/display/ESB500/About+WSO2+ESB) ESB an, welcher kostenlos und Open Source ist.
 
-Machen Sie sich mit diesem vertraut und verstehen die die Funktionsweise und den Nutzen eines ESB.
-
+Machen Sie sich mit diesem vertraut und verstehen die die Funktionsweise und den Nutzen eines ESB. Das [Einführungskapitel](https://docs.wso2.com/display/ESB500/About+WSO2+ESB) ermöglicht einen guten Einstieg.
 Diskutieren Sie Vor- und Nachteile, Ihre Services direkt miteinander, oder über den ESB kommunizieren zu lassen.
 
 ## Hilfe
