@@ -43,7 +43,7 @@ Eine `Unit` ist ein Paket aus verschiedenen Unterlagen und kann daher einfach al
 [Spark](http://sparkjava.com) als HTTP/REST Framework sowie einer Datenbank Ihrer Wahl. Bei der Wahl der Datenbank helfen Ihnen folgende Fragen:
 
 ### Fragen
-Sie müssen diese Fragen nicht schriftlich beantworten. Sie werden Ihnen aber bei Ihrer Lösungsfindung und dem Grundverständnis über Serviceorientierung helfen:
+Sie müssen diese Fragen nicht schriftlich beantworten. Sie werden Ihnen aber bei Ihrer Lösungsfindung und Implementierung helfen:
 
 1. Schriftliche- und Multimedia-Unterlagen können als voneinander unabhängige Entitäten definiert werden, anstatt diese wie im Lösungsbeispiel in einem Objekt zusammenzuführen und über einen zusätzlichen Schlüssel unterscheidbar zu machen. Welche Vorteile hätte dieser Ansatz? Sehen Sie Nachteile bei diesem Ansatz, wenn ja, welche?
 2. Erläutern Sie Vor- und Nachteile bei der Verwendung von XML anstatt JSON
