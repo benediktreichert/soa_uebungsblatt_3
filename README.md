@@ -50,7 +50,7 @@ Sie müssen diese Fragen nicht schriftlich beantworten. Sie werden Ihnen aber be
 3. Welche Datenbank ist für diesen Service sinnvoll? Wägen Sie aufgrund des Datenmodells kritisch die Verwendung einer relationalen Datenbank (z.B. [`mySQL`](https://en.wikipedia.org/wiki/MySQL)), einer dokumentbasierten Datenbank (z.B. [`MongoDB`](https://en.wikipedia.org/wiki/MongoDB)) und einer Graph-Datenbank (z.B. [`Neo4j`](https://en.wikipedia.org/wiki/Neo4j)) gegeneinander ab und entscheiden sich für eine.
 4. Wägen Sie den Nutzen und die Risiken hinsichtlich der Implementierung gegen die verschiedenen Datenbanken ab. Sie müssen kein Datenbankexperte werden, entscheiden Sie nach ein wenig Recherche und einem gewissen Grundverständnis.
 5. Nachdem Sie den Service implementiert haben, machen Sie sich Gedanken wie dieser skaliert. Was passiert, wenn 1 Request pro Sekunde den Service beansprucht? Wie könnte sich bei Ihrer Implementierung und der verwendeten Datenbank der Service verhalten, wenn 1000 Requests pro Sekunde kommen? 10 000? 100 000? 1 000 000?
-6. Definieren Sie Anforderungen an den key `id`. Wie muss `id` beschaffen sein und was muessen Sie bei der Implementierung beachten hinsichtlich Eindeutigkeit und im Zusammenspiel mit einer Datenbank? Welche Datenbanken nehmen Ihnen hier gar etwas Arbeit ab?
+6. Definieren Sie Anforderungen an den key `id`. Wie muss `id` beschaffen sein und was müssen Sie bei der Implementierung beachten hinsichtlich Eindeutigkeit und im Zusammenspiel mit einer Datenbank? Welche Datenbanken nehmen Ihnen hier gar etwas Arbeit ab?
 7. Bei der Erstellung einer Unterlage stehen Ihnen verschiedene Möglichkeiten zur Verfügung die Daten im `POST` Request zu übermitteln. Welche Möglichkeiten stellt Ihnen HTTP hier zur Verfügung (JSON im Request Body, Query Parameter, `x-www-form-urlencoded`, etc.). Welche sind sinnvoll, welche nicht? Wie erleichtert Ihnen `Spark` den Umgang mit den verschiedenen Möglichkeiten?
 
 ## Kundendatenbank Service
@@ -66,10 +66,10 @@ Entwerfen Sie die Endpoints. Eine mögliche Lösung wird in Übungsblatt 4 verö
 }
 ```
 
-1. Ist das obige Modell sinvoll? 
+1. Ist das obige Modell sinnvoll? 
 2. Ein Name in Deutschland besteht meist aus Vor- und Nachname, sollten Sie dazu das obige Modell abändern?
-3. und Adresse?
-4. Recherchieren Sie ob zu dieser Problematik best practices existieren.
+3. Gilt gleiches für die Adresse?
+4. Recherchieren Sie, ob zu dieser Problematik best practices existieren.
 
 Zur Implementierung genügt obiges Modell völlig. Nutzen Sie Ihr Schulungsunterlagen Service als Gerüst um den Kundendatenbank Service möglichst schnell und einfach zu implementieren. Die Fragen dienen nur als Anregung.
 
