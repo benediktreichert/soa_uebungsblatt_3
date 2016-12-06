@@ -40,6 +40,8 @@ Eine `Lektion` ist ein Paket aus verschiedenen Unterlagen und kann daher einfach
 {
   ID: String,
   name: String,
+  beschreibung: String,
+  preis: Number,
   unterlagen: [Unterlage]
 }
 ```
