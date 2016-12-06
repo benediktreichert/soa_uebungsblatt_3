@@ -1,4 +1,8 @@
 # Übungsblatt 3
+Lesen Sie zunächst dieses Übungsblatt einmal komplett, bevor Sie mit der Bearbeitung der Aufgaben beginnen.
+
+Sollten Sie Fehler finden oder haben Verbesserungsvorschläge, stellen Sie gerne einen [Pull Request](https://guides.github.com/activities/forking/) und tragen zur Qualität dieses Übungsblattes bei.
+
 In diesem Übungsblatt verwenden Sie den Schulungsunterlagen-Service aus Übungsblatt 2, erstellen zudem einen Kundendatenbank-Service sowie einen Bestellungs-Service. Der Bestellungs-Service verwaltet Kundenbestellungen und nutzt als Datengrundlage den Schulungs- sowie den Kundendatenbank-Service. Sie integrieren die drei Services mit einem ESB (Enterprise-Service-Bus) und entwickeln eine sinnvolle Service-Architektur. Die folgenden Aufgaben helfen Ihnen bei der Umsetzung und Entscheidungsfindung:
 
 ## Mögliche Lösung: Schulungsunterlagen-Service
@@ -48,6 +52,7 @@ Sie müssen diese Fragen nicht schriftlich beantworten. Sie werden Ihnen aber be
 
 1. Schriftliche- und Multimedia-Unterlagen können als voneinander unabhängige Entitäten definiert werden, anstatt diese wie im Lösungsbeispiel in einem Objekt zusammenzuführen und über einen zusätzlichen Schlüssel unterscheidbar zu machen. Welche Vorteile hätte dieser Ansatz? Sehen Sie Nachteile bei diesem Ansatz, wenn ja, welche?
 2. Erläutern Sie Vor- und Nachteile bei der Verwendung von XML anstatt JSON
+![JSON Meme](http://s2.quickmeme.com/img/37/378dc176eed7cbd89f077b3d3b065f4ac6ea9815dad3fbf71cfa94a9c92d5e93.jpg)
 3. Welche Datenbank ist für diesen Service sinnvoll? Wägen Sie aufgrund des Datenmodells kritisch die Verwendung einer relationalen Datenbank (z.B. [`mySQL`](https://en.wikipedia.org/wiki/MySQL)), einer dokumentbasierten Datenbank (z.B. [`MongoDB`](https://en.wikipedia.org/wiki/MongoDB)) und einer Graph-Datenbank (z.B. [`Neo4j`](https://en.wikipedia.org/wiki/Neo4j)) gegeneinander ab und entscheiden sich für eine.
 4. Wägen Sie den Nutzen und die Risiken hinsichtlich der Implementierung gegen die verschiedenen Datenbanken ab. Sie müssen kein Datenbankexperte werden, entscheiden Sie nach ein wenig Recherche und einem gewissen Grundverständnis.
 5. Nachdem Sie den Service implementiert haben, machen Sie sich Gedanken wie dieser skaliert. Was passiert, wenn 1 Request pro Sekunde den Service beansprucht? Wie könnte sich bei Ihrer Implementierung und der verwendeten Datenbank der Service verhalten, wenn 1000 Requests pro Sekunde kommen? 10 000? 100 000? 1 000 000?
