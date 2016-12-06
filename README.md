@@ -20,23 +20,24 @@ Eine `Unterlage` könnte wie folgt definiert sein:
 ### Unterlage
 ```
 {
-  name: String,
+  ID: String,
+  name: String,
   fachgebiet: String,
   beschreibung: String,
   preis: Number,
-  ID: String,
   multimediaomponente: Bool
 }
 ```
 Schriftliche Unterlagen und Multimedia-Unterlagen wurden zu einem Objekt zusammengefasst und werden durch den key `multimediakomponente` unterschieden: `false`, falls die Unterlage schriftlich ist und `true` falls multimedial.
 
-### Units
-Eine `Unit` ist ein Paket aus verschiedenen Unterlagen und kann daher einfach als JSON Array von `Unterlage`n modelliert werden.
+### Lektion
+Eine `Lektion` ist ein Paket aus verschiedenen Unterlagen und kann daher einfach als JSON Array von `Unterlage`n modelliert werden.
 ```
-[
-  { ... },
-  { ... }
-]
+{
+  ID: String,
+  name: String,
+  unterlagen: [Unterlage]
+}
 ```
 
 ### Implementierung
