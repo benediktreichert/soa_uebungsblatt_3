@@ -29,7 +29,7 @@ Eine `Unterlage` könnte wie folgt definiert sein:
   fachgebiet: String,
   beschreibung: String,
   preis: Number,
-  multimediaomponente: Bool
+  multimediaKomponente: Bool
 }
 ```
 Schriftliche Unterlagen und Multimedia-Unterlagen wurden zu einem Objekt zusammengefasst und werden durch den key `multimediakomponente` unterschieden: `false`, falls die Unterlage schriftlich ist und `true` falls multimedial.
