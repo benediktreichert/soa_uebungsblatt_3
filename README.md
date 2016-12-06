@@ -7,13 +7,13 @@ Diesen Service haben Sie bereits in Übungsblatt 2 umgesetzt. Eine mögliche Arc
 ### Endpoints
 `GET` `/unterlagen` Listet alle `Unterlage`n auf.
 
-`GET` `/unterlagen/:id` Gibt die `Unterlage` `id` zurück.
+`GET` `/unterlagen/:ID` Gibt die `Unterlage` `ID` zurück.
 
-`POST` `/unterlagen` Erstellt eine `Unterlage`. Die `id` wird bei erfolgreicher Erstellung im HTTP Body zurückgegeben.
+`POST` `/unterlagen` Erstellt eine `Unterlage`. Die `ID` wird bei erfolgreicher Erstellung im HTTP Body zurückgegeben.
 
-`PATCH` `/unterlagen/:id` Aktualisiert die `Unterlage` mit entsprechender `id`.
+`PATCH` `/unterlagen/:ID` Aktualisiert die `Unterlage` mit entsprechender `ID`.
 
-`DELETE` `/unterlagen/:id` Löscht `Unterlage` mit `id`.
+`DELETE` `/unterlagen/:ID` Löscht `Unterlage` mit `ID`.
 
 Eine `Unterlage` könnte wie folgt definiert sein:
 
@@ -51,7 +51,7 @@ Sie müssen diese Fragen nicht schriftlich beantworten. Sie werden Ihnen aber be
 3. Welche Datenbank ist für diesen Service sinnvoll? Wägen Sie aufgrund des Datenmodells kritisch die Verwendung einer relationalen Datenbank (z.B. [`mySQL`](https://en.wikipedia.org/wiki/MySQL)), einer dokumentbasierten Datenbank (z.B. [`MongoDB`](https://en.wikipedia.org/wiki/MongoDB)) und einer Graph-Datenbank (z.B. [`Neo4j`](https://en.wikipedia.org/wiki/Neo4j)) gegeneinander ab und entscheiden sich für eine.
 4. Wägen Sie den Nutzen und die Risiken hinsichtlich der Implementierung gegen die verschiedenen Datenbanken ab. Sie müssen kein Datenbankexperte werden, entscheiden Sie nach ein wenig Recherche und einem gewissen Grundverständnis.
 5. Nachdem Sie den Service implementiert haben, machen Sie sich Gedanken wie dieser skaliert. Was passiert, wenn 1 Request pro Sekunde den Service beansprucht? Wie könnte sich bei Ihrer Implementierung und der verwendeten Datenbank der Service verhalten, wenn 1000 Requests pro Sekunde kommen? 10 000? 100 000? 1 000 000?
-6. Definieren Sie Anforderungen an den key `id`. Wie muss `id` beschaffen sein und was müssen Sie bei der Implementierung beachten hinsichtlich Eindeutigkeit und im Zusammenspiel mit einer Datenbank? Welche Datenbanken nehmen Ihnen hier gar etwas Arbeit ab?
+6. Definieren Sie Anforderungen an den key `ID`. Wie muss `ID` beschaffen sein und was müssen Sie bei der Implementierung beachten hinsichtlich Eindeutigkeit und im Zusammenspiel mit einer Datenbank? Welche Datenbanken nehmen Ihnen hier gar etwas Arbeit ab?
 7. Bei der Erstellung einer Unterlage stehen Ihnen verschiedene Möglichkeiten zur Verfügung die Daten im `POST` Request zu übermitteln. Welche Möglichkeiten stellt Ihnen HTTP hier zur Verfügung (JSON im Request Body, Query Parameter, `x-www-form-urlencoded`, etc.). Welche sind sinnvoll, welche nicht? Wie erleichtert Ihnen `Spark` den Umgang mit den verschiedenen Möglichkeiten?
 
 ## Kundendatenbank Service
@@ -61,7 +61,7 @@ Entwerfen Sie die Endpoints. Eine mögliche Lösung wird in Übungsblatt 4 verö
 ### Datenmodell: Kunde
 ```
 {
-  id: String,
+  ID: String,
   name: String,
   adresse: String
 }
@@ -83,7 +83,7 @@ Der Bestellungs-Service bedient Sich aus den beiden anderen Services und verwalt
 Ein Bestellungsmodell könnte wie folgt aussehen:
 ```
 {
-  id: String,
+  ID: String,
   bestellDatum: String, // Hinweis: http://stackoverflow.com/a/15952652/6394818
   bezahlt: Bool
   kunde: Kunde,
@@ -93,7 +93,7 @@ Ein Bestellungsmodell könnte wie folgt aussehen:
 Eine konkrete Bestellung:
 ```
 {
-  id: "af8b10c8cyi23urbjcosfig90r80y1grm",
+  ID: "af8b10c8cyi23urbjcosfig90r80y1grm",
   bestellDatum: "2012-04-23T18:25:43.511Z",
   bezahlt: true,
   kunde:
